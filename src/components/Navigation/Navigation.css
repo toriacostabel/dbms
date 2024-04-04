@@ -1,0 +1,66 @@
+/* Estilos para el navbar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .nav-link {
+    color: #fff;
+    margin-right: 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ccc;
+  }
+  
+  /* Estilos para el menú hamburguesa */
+  .navbar-toggle {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .navbar-toggle:focus {
+    outline: none;
+  }
+  
+  /* Estilos para el menú desplegable */
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1;
+    padding: 1rem;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Estilos para pantallas más grandes */
+  @media (min-width: 768px) {
+    .navbar-collapse {
+      position: static;
+      background-color: transparent;
+      padding: 0;
+    }
+  
+    .navbar-nav {
+      flex-direction: row;
+    }
+  }
