@@ -1,3 +1,9 @@
+@import './components/Fonts/fonts.css';
+
+*{
+  font-family: 'Garet';
+}
+
 .App {
   text-align: center;
 }
