@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import NavBar from '../Navigation/NavBar'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Introduction.css';
+import NavBar from '../Navigation/NavBar';
 
 
 
@@ -8,20 +10,24 @@ const Introduction = () => {
 
     return (
         <>
-        <NavBar />
-            <div className="container about-mysql">
-                <h2 className="display-4">¿Qué es MySQL?</h2>
+            <NavBar />
+            <div className="container col-6 about-mysql" id='introduction-wrapper'>
+                <h2 className="display-4 pt-5">¿Qué es MySQL?</h2>
                 <p className="lead">
-                    MySQL es un sistema de gestión de bases de datos relacionales (RDBMS)
-                    gratuito y de código abierto utilizado por millones de personas para
-                    almacenar y administrar datos.
+                MySQL es un sistema de gestión de bases de datos relacional (RDBMS) de código abierto que utiliza el Lenguaje de Consulta Estructurado (SQL) para gestionar y manipular bases de datos. Es uno de los sistemas de bases de datos más populares del mundo, conocido por su velocidad, fiabilidad y facilidad de uso. MySQL se utiliza ampliamente en aplicaciones web, incluidas algunas de las páginas web más grandes y exigentes del mundo, debido a su capacidad para manejar grandes cantidades de datos de manera eficiente.
                 </p>
 
                 <h2 className="display-4">Historia de MySQL</h2>
                 <p>
-                    Creado en 1994, MySQL es conocido por su velocidad, fiabilidad y
-                    facilidad de uso. Oracle lo adquirió en 2010 y continúa su desarrollo.
+                MySQL fue creado en 1995 por la empresa sueca MySQL AB, cofundada por David Axmark, Allan Larsson y Michael "Monty" Widenius. El sistema se desarrolló inicialmente para gestionar bases de datos para aplicaciones a menor escala, pero rápidamente ganó popularidad debido a su simplicidad y robustez. En 2008, MySQL AB fue adquirida por Sun Microsystems, que posteriormente fue adquirida por Oracle Corporation en 2010. A pesar de las preocupaciones sobre la adquisición, MySQL ha continuado creciendo y evolucionando, manteniendo su estatus como un RDBMS líder.
                 </p>
+
+                <h2 className="display-4">Versiones de MySQL</h2>
+                <ul>
+                    <li>MySQL 3.x y 4.x: Versiones tempranas que establecieron las características básicas y las capacidades de rendimiento de MySQL.</li>
+                    <li>MySQL 5.x: Introdujo características significativas como procedimientos almacenados, disparadores, vistas y replicación mejorada.</li>
+                    <li>MySQL 8.x: La última versión principal, que ofrece un rendimiento mejorado, mayor seguridad, mejor soporte para JSON y otras características modernas de bases de datos.</li>
+                </ul>
 
                 <div className="row">
                     <div className="col-md-6">

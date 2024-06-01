@@ -6,8 +6,9 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   font-family: 'Garet';
+  height: 100vh;
 }
 
 .logo {
@@ -19,21 +20,23 @@
 }
 
 .nav-menu{
+  position: relative;
   display: flex;
   justify-content: center;
   width: 100%;
+  flex-direction: column !important;
 }
 
 .nav-link {
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
   transition: color 0.3s ease;
-  padding: 2%;
+  width: 100%;
 }
 
 .nav-link:hover {
   color: #dbdbdb;
-  background-color: #1f1f1f;
+  background-color: #545454;
 }
 
 .toggle-btn {
