@@ -52,21 +52,16 @@ const NavBar = () => {
               <Nav.Link as={Link} to="/architecture">
                 Arquitectura
               </Nav.Link>
-              <Nav.Link as={Link} to="/performance">
-                Rendimiento
+              <Nav.Link as={Link} to="/data-definition-language">
+                DDL
               </Nav.Link>
-              <Nav.Link as={Link} to="/queries">
+              <Nav.Link as={Link} to="/data-manipulation-language">
+                DML
+              </Nav.Link>
+              <Nav.Link as={Link} to="/advanced-queries">
                 Consultas
               </Nav.Link>
-              <Nav.Link as={Link} to="/data-types">
-                Datos
-              </Nav.Link>
-              <Nav.Link as={Link} to="/syntax">
-                Sintaxis
-              </Nav.Link>
-              <Nav.Link as={Link} to="/tools">
-                Herramientas
-              </Nav.Link>
+              
             </Nav>
           </Navbar.Collapse>
         )} 

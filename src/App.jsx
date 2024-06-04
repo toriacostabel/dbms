@@ -3,11 +3,10 @@ import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import NavBar from './components/Navigation/NavBar';
 import Introduction from './components/Introduction/Introduction';
 import Architecture from './components/Architecture/Architecture';
-import Syntax from './components/Syntax/Syntax';
-import DataTypes from './components/DataTypes/DataTypes';
+import DDL from './components/DDL/DDL';
+import DML from './components/DML/DML';
 import Queries from './components/Queries/Queries';
-import Performance from './components/Performance/Performance';
-import Tools from './components/Tools/Tools';
+
 
 const App = () => {
   return (
@@ -16,11 +15,9 @@ const App = () => {
         <Route path="/" element={<NavBar />} />
         <Route path="/introduction" element={<Introduction />} />
         <Route path="/architecture" element={<Architecture />} />
-        <Route path="/syntax" element={<Syntax />} />
-        <Route path="/data-types" element={<DataTypes />} />
-        <Route path="/queries" element={<Queries />} />
-        <Route path="/performance" element={<Performance />} />
-        <Route path="/tools" element={<Tools />} />
+        <Route path="/data-definition-language" element={<DDL />} />
+        <Route path="/data-manipulation-language" element={<DML />} />
+        <Route path="/advanced-queries" element={<Queries/>} />
       </Routes>
     </BrowserRouter>
 

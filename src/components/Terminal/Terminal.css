@@ -1,0 +1,71 @@
+.terminal-container {
+  background-color: #131313;
+  /* Fondo oscuro */
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  border-radius: 25px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.terminal-header {
+  background-color: #3f3f3f;
+  /* Color del header */
+  padding: 10px;
+  border-radius: 15px 15px 0 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ff5f56;
+}
+
+.button:nth-child(2) {
+  background-color: #ffbd2e;
+}
+
+.button:nth-child(3) {
+  background-color: #27c93f;
+}
+
+.terminal-body {
+  padding: 10px;
+  overflow-y: auto;
+  max-height: 400px;
+  white-space: pre-wrap;
+}
+
+.code {
+  color: white;
+}
+
+/* Estilos para la barra de desplazamiento */
+.terminal-body::-webkit-scrollbar {
+  width: 8px; 
+}
+
+.terminal-body::-webkit-scrollbar-thumb {
+  background-color: #555; 
+  border-radius: 4px;
+}
+
+.terminal-body::-webkit-scrollbar-thumb:hover {
+  background-color: #888; 
+}
+
+.terminal-body::-webkit-scrollbar-track {
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #333; 
+}

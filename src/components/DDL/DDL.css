@@ -1,6 +1,6 @@
 @import '../Fonts/fonts.css';
 
-#queries-wrapper {
+#ddl-wrapper {
     font-family: 'Garet';
 }
 
@@ -8,10 +8,3 @@
     text-align: justify;
 }
 
-span{
-    font-weight: bold;
-}
-
-.not-justified {
-    text-align: left;
-}
