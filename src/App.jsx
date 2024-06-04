@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import NavBar from './components/Navigation/NavBar';
 import Introduction from './components/Introduction/Introduction';
-import General from './components/General/General';
+import Architecture from './components/Architecture/Architecture';
 import Syntax from './components/Syntax/Syntax';
 import DataTypes from './components/DataTypes/DataTypes';
 import Queries from './components/Queries/Queries';
@@ -15,7 +15,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<NavBar />} />
         <Route path="/introduction" element={<Introduction />} />
-        <Route path="/general" element={<General />} />
+        <Route path="/architecture" element={<Architecture />} />
         <Route path="/syntax" element={<Syntax />} />
         <Route path="/data-types" element={<DataTypes />} />
         <Route path="/queries" element={<Queries />} />

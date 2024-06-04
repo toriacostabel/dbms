@@ -1,7 +1,7 @@
 @import './components/Fonts/fonts.css';
 
 *{
-  font-family: 'Garet';
+  font-family: 'Garet' !important;
 }
 
 .App {

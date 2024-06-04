@@ -49,8 +49,8 @@ const NavBar = () => {
               <Nav.Link as={Link} to="/introduction">
                 Introducción
               </Nav.Link>
-              <Nav.Link as={Link} to="/general">
-                General
+              <Nav.Link as={Link} to="/architecture">
+                Arquitectura
               </Nav.Link>
               <Nav.Link as={Link} to="/performance">
                 Rendimiento
