@@ -99,7 +99,19 @@ const Architecture = () => {
           </div>
         </div>
 
+        <h2 className="mt-5 mb-4">Diferencias con la Arquitectura de Almacenamiento de SQL Server</h2>
+        <p>
+          La arquitectura de MySQL se distingue por su modelo cliente/servidor y su capacidad para utilizar motores de almacenamiento pluggables. Esto significa que los usuarios pueden seleccionar entre varios motores de almacenamiento, como InnoDB, MyISAM, MEMORY, y ARCHIVE, cada uno optimizado para diferentes tipos de aplicaciones y cargas de trabajo.<br/><br/>
 
+          InnoDB, el motor de almacenamiento predeterminado, soporta transacciones ACID, claves foráneas y bloqueo a nivel de fila, ideal para aplicaciones que requieren alta concurrencia y transacciones seguras.<br/><br/>
+          MyISAM, por otro lado, no soporta transacciones y utiliza bloqueo a nivel de tabla, pero es más rápido en operaciones de lectura. Esta flexibilidad permite a MySQL adaptarse a diversas necesidades de almacenamiento y rendimiento.<br/><br/>
+
+          En contraste, SQL Server utiliza un sistema de almacenamiento unificado, gestionando todas las bases de datos y tablas bajo un único motor de almacenamiento. Esto simplifica la administración y optimización, ya que no es necesario elegir entre diferentes motores. <br/><br/>
+
+          SQL Server ofrece características avanzadas como FileStream para datos binarios grandes, In-Memory OLTP para mejorar el rendimiento de transacciones en memoria, y ColumnStore Indexes para consultas analíticas. Además, SQL Server integra herramientas para análisis, informes y ETL, proporcionando un ecosistema robusto para la gestión y análisis de datos. <br/><br/>
+          
+          La elección entre MySQL y SQL Server depende de las necesidades específicas del proyecto, considerando factores como flexibilidad, costo, y el entorno de implementación.
+        </p>
 
       </div>
     </>
