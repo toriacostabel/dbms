@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/dbms/static/css/main.2460f9aa.css",
+    "main.js": "/dbms/static/js/main.1ae7ef83.js",
+    "static/js/453.dde9070a.chunk.js": "/dbms/static/js/453.dde9070a.chunk.js",
+    "static/media/ClassicalDiary-Regular Demo.ttf": "/dbms/static/media/ClassicalDiary-Regular Demo.388eae54db6f56e665aa.ttf",
+    "static/media/Garet-Book.woff": "/dbms/static/media/Garet-Book.c69733e9aa6a9fc22bcb.woff",
+    "index.html": "/dbms/index.html",
+    "main.2460f9aa.css.map": "/dbms/static/css/main.2460f9aa.css.map",
+    "main.1ae7ef83.js.map": "/dbms/static/js/main.1ae7ef83.js.map",
+    "453.dde9070a.chunk.js.map": "/dbms/static/js/453.dde9070a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2460f9aa.css",
+    "static/js/main.1ae7ef83.js"
+  ]
+}
