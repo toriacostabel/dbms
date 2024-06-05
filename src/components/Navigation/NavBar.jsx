@@ -67,6 +67,9 @@ const NavBar = () => {
               <Nav.Link as={Link} to="/transactions-and-concurrency">
                 Transacciones
               </Nav.Link>
+              <Nav.Link as={Link} to="/security">
+                Seguridad
+              </Nav.Link>
               
             </Nav>
           </Navbar.Collapse>

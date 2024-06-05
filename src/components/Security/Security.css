@@ -1,0 +1,17 @@
+@import '../Fonts/fonts.css';
+
+#security-wrapper {
+    font-family: 'Garet';
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+span{
+    font-weight: bold;
+}
+
+.not-justified {
+    text-align: left;
+}
