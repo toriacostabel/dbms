@@ -1,0 +1,14 @@
+@import '../Fonts/fonts.css';
+
+#transactions-wrapper {
+    font-family: 'Garet';
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+span{
+    font-weight: bold;
+}
+

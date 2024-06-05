@@ -64,6 +64,9 @@ const NavBar = () => {
               <Nav.Link as={Link} to="/indexes-and-performance">
                 Índices
               </Nav.Link>
+              <Nav.Link as={Link} to="/transactions-and-concurrency">
+                Transacciones
+              </Nav.Link>
               
             </Nav>
           </Navbar.Collapse>
