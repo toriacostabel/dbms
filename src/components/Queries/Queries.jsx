@@ -27,7 +27,7 @@ const Queries = () => {
             SELECT 'Inicio de sesión exitoso' AS mensaje;
         ELSE
             SELECT 'Credenciales incorrectas' AS mensaje;
-    END;`
+    END;`;
     const mysqlProcedure = `CREATE PROCEDURE VerificarCredenciales (IN usuario VARCHAR(50), IN contraseña VARCHAR(50))
     BEGIN
         DECLARE usuario_encontrado INT;
@@ -41,7 +41,7 @@ const Queries = () => {
         ELSE
             SELECT 'Credenciales incorrectas' AS mensaje;
         END IF;
-    END;`
+    END;`;
 
 
     return (
@@ -66,7 +66,7 @@ const Queries = () => {
                 <h2 className="display-6 mt-5">Vistas</h2>
 
                 <p className="mt-4">
-                    Las vistas en MySQL son consultas almacenadas que actúan como tablas virtuales. Permiten a los usuarios acceder y manipular datos de manera conveniente al proporcionar una capa de abstracción sobre las tablas subyacentes. Aunque MySQL y SQL Server admiten vistas, hay diferencias en la sintaxis y características admitidas. Por ejemplo, SQL Server admite vistas indexadas, que pueden mejorar el rendimiento al almacenar los resultados físicamente, mientras que en MySQL son solo vistas lógicas sin almacenamiento físico.
+                    Las vistas en MySQL son consultas almacenadas que actúan como tablas virtuales. Permiten a los usuarios acceder y manipular datos de manera conveniente al proporcionar una capa de abstracción sobre las tablas subyacentes. Aunque MySQL y SQL Server admiten vistas, hay diferencias en las características admitidas. Por ejemplo, SQL Server admite vistas indexadas, que pueden mejorar el rendimiento al almacenar los resultados físicamente, mientras que en MySQL son solo vistas lógicas sin almacenamiento físico.
                 </p>
                 <p className="mt-4 mb-5">
                     Cuando se comparan las vistas en MySQL con SQL Server, es importante tener en cuenta que si bien la sintaxis es la misma, el comportamiento varía. Se utiliza <span>CREATE VIEW</span> para definir una vista, pero SQL Server admite características avanzadas como vistas indexadas y vistas materializadas, que pueden mejorar el rendimiento y la flexibilidad en comparación con MySQL.

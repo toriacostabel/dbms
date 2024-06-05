@@ -61,6 +61,9 @@ const NavBar = () => {
               <Nav.Link as={Link} to="/advanced-queries">
                 Consultas
               </Nav.Link>
+              <Nav.Link as={Link} to="/indexes-and-performance">
+                Índices
+              </Nav.Link>
               
             </Nav>
           </Navbar.Collapse>
