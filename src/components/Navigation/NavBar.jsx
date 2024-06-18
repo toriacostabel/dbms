@@ -70,7 +70,9 @@ const NavBar = () => {
               <Nav.Link as={Link} to="/security">
                 Seguridad
               </Nav.Link>
-              
+              <Nav.Link as={Link} to="/triggers">
+                Triggers
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         )} 

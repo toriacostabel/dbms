@@ -9,6 +9,8 @@ import Queries from './components/Queries/Queries';
 import Indexes from './components/Indexes/Indexes';
 import Transactions from './components/Transactions/Transactions';
 import Security from './components/Security/Security';
+import Triggers from './components/Triggers/Triggers';
+
 
 
 const App = () => {
@@ -24,6 +26,7 @@ const App = () => {
         <Route path="/indexes-and-performance" element={<Indexes />} />
         <Route path="/transactions-and-concurrency" element={<Transactions />}/>
         <Route path="/security" element={<Security />}/>
+        <Route path="/triggers" element={<Triggers />}/>
       </Routes>
     </BrowserRouter>
 
